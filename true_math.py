@@ -1,5 +1,7 @@
+from math import inf
+
 def div(first, second):
     if second == 0:
-        return 'Inf.'
+        return inf
     else:
         return first / second
